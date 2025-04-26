@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CoreUI Free React Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%React%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
@@ -183,3 +184,6 @@ CoreUI is an MIT-licensed open source project and is completely free to use. How
 copyright 2024 creativeLabs Łukasz Holeczek.   
 
 Code released under [the MIT license](https://github.com/coreui/coreui-free-react-admin-template/blob/main/LICENSE).
+=======
+# SGgymwebsite
+>>>>>>> 613b20a0e7867df1352cc4fcb26503b8b390b9cf
