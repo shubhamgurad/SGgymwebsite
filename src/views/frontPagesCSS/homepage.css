@@ -1,0 +1,621 @@
+.background-image {
+    background-image: url('../Images/gym_bg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full screen height */
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .background-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Make sure the overlay is on top of the image */
+  }
+  
+  /* Overlay style for text */
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2; /* Ensure text appears above the overlay */
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .overlay-heading{
+    font-size: 46px;
+    font-weight: 700;
+  }
+
+  
+  .section2-container {
+    padding: 50px 0;
+    background-color: white;
+  }
+
+  .section2-row{
+    padding: 0px 90px;
+  }
+
+  .section2-image{
+    height: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .section2-text {
+    text-align: left;
+  }
+  
+  .section2-head {
+    font-weight: bold;
+    color: #cf231f;
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+  
+  .section2-subhead {
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .section2-btn {
+    background: linear-gradient(90deg, #CF231F 0%, #FF5733 100%);
+    color: white; /* Ensures text is visible */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .fitness-card-conteiner{
+    background-color: white;
+    padding: 30px 0px;
+  }
+
+  .fitness-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(207, 35, 31, 0.1);
+    text-align: center;
+    border: none;
+  }
+  
+  .fitness-card-icon {
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 8px;
+    color: #cf231f;
+  }
+  
+  .fitness-card .card-text {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;        
+    display: flex;             
+    justify-content: center;  
+    align-items: center;
+    height: 100%;        
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    display: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+    border-radius: 10px;
+  }
+  
+  .fitness-card:hover .card-overlay {
+    display: block;
+  }
+  
+  .fitness-card:hover .card-body {
+    opacity: 0.8;
+  }
+
+  .service-head{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    color: #cf231f;
+    margin-bottom: 20px;
+  }
+
+  .services-card {
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(207, 35, 31, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .services-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+  }
+
+  .services-image {
+    width: 100%;
+    height: 250px; /* Adjust as needed */
+    object-fit: cover; /* Ensures image covers the area properly */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .services-name{
+    padding: 7px 0px;
+  }
+
+  .services-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .services-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+
+  .services-icon{
+    font-size: 12px;
+    color: #c7c7c7;
+    margin-right: 7px;
+  }
+
+  .trainer-col {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .trainer-card {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .trainer-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .trainer-card.hovered .trainer-img {
+    transform: scale(1.05);
+  }
+  
+  .trainer-card .card-body {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .trainer-card .card-title {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .trainer-card .card-subtitle {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .trainer-desc {
+    font-size: 14px;
+    color: #555;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  /* Container Styling */
+  .pricing-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .card-text1{
+    padding: 0 15%;
+  }
+
+  .slider-item-padding-40-px {
+    padding: 0 50px; 
+  }
+
+  /* Card Styling */
+  .pricing-card {
+    background: white;
+    width: 300px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+  }
+  .price{
+      font-size: 24px;
+      justify-content: center;
+      align-items: center; 
+  }
+  .cloud-price{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center; 
+  }
+
+
+  /* Top Section */
+  .card-top {
+    position: relative;
+    height: 160px;
+    overflow: hidden;
+  }
+
+  /* Price Circle - Positioned on the waves */
+  .price-circle {
+    width: 90px;
+    height: 90px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+  }
+
+  .price{
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Multiple Waves */
+    .top-wave {
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 100%;
+    }
+    
+    .top-wave-1 {
+      top: 0;
+    }
+    
+    .top-wave-2 {
+      top: 32px;
+    }
+    
+    .top-wave-3 {
+      top: 76px;
+    }
+
+  /* Content Section */
+  .card-content {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .pricing-card-container .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+  }
+
+  .card-tag{
+    font-size: 14px;
+    color: black;
+    z-index: 5;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .features {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features li {
+    margin: 5px 0;
+  }
+
+  .checkcircle-card{
+    color: rgb(97, 95, 95);
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  .checkcircle-card:hover,
+  .features li:hover .checkcircle-card {
+    color: #cf231f;
+  }
+
+  .start-button {
+    position: relative; /* Ensures the z-index applies */
+    z-index: 2; /* Sets a higher z-index than .bottom-wave */
+    background: none;
+    color: #cf231f !important;
+    padding: 5px 13px;
+    border: 1px solid #cf231f;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .start-button:hover {
+    background: black !important;
+    color: white !important;
+    border: none;
+  }
+
+  /* Bottom Section */
+  .card-bottom {
+    position: absolute;
+    /* bottom: -30px; */
+    width: 100%;
+  }
+
+
+  .bottom-wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .pricing-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative ;
+  }
+
+
+  .price-circle sub {
+    font-size: 10px;
+    color: gray; 
+  }
+
+  .card-sidebar{
+    padding: 0 20px;
+    flex: 1 1 auto;
+    position: relative;
+    width: auto;
+  }
+
+@media (max-width: 480px) {
+  .card-text1{
+    padding:  0 1px;
+  }
+}
+  
+
+.fitness-banner {
+  position: relative;
+  background-image: url('../Images/banner-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  overflow: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-trainer {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+
+.fitness-content {
+  text-align: left;
+  padding: 1rem 2rem;
+}
+
+.fitness-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.fitness-content p {
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.contact-btn {
+  background: linear-gradient(to right, #d94f4c, #f3663e);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 0px;
+}
+
+/* Sticky Icon Styling */
+.sticky-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #25d366; /* WhatsApp green */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.sticky-icon:hover {
+  background-color: #28a556; /* Darker WhatsApp green */
+}
+
+/* Chat Popup Styling */
+.chat-popup {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 290px;
+  height: 260px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Header Styling */
+.chat-header {
+  background: #075E54;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-header img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.chat-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-title h6 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.chat-title span {
+  font-size: 12px;
+  color: #cfd3d6;
+}
+
+.close-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Chat Body Styling */
+.chat-body {
+  padding: 15px;
+  background: #ece5dd;
+  background-image: 
+    linear-gradient(rgba(236, 229, 221, 0.89), rgba(236, 229, 221, 0.89)), /* Overlay color */
+    url('../Images/solutionimg/wachat_bg.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.chat-footer {
+  padding: 10px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.whatsapp-button {
+  background: #25d366;
+  color: white;
+  border: none;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 180px;
+}
+
+.whatsapp-button:hover {
+  background: #2ab85e;
+}
+
+.chat-powered {
+  font-size: 12px;
+  color: #3a3a3a;
+  margin-top: 5px;
+  cursor: pointer;
+}

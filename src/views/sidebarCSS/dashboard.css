@@ -1,0 +1,137 @@
+/* Dashboard.css */
+
+/* Main container for the Dashboard */
+.dashboard-container {
+    padding: 20px;
+    margin: 40px auto;
+    /* background-color: #fffdfd; */
+    /* border-radius: 10px; */
+  }
+  
+  /* Styling for StatCards */
+  .dashboard-card {
+    border-radius: 12px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+  }
+  
+  .dashboard-card-header {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .dashboard-card-icon {
+    background-color: var(--primary-color);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .dashboard-card-value {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  /* Styling for Course Cards */
+  .dashboard-course-card {
+    border-radius: 12px;
+    height: 150px;
+    padding: 15px;
+  }
+  
+  .dashboard-course-card-header {
+    background-color: var(--secondary-color);
+    color: black;
+    width: 35px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .dashboard-course-title {
+    font-size: 16px;
+    padding: 1rem;
+  }
+  
+  .dashboard-course-progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .dashboard-progress-bar-filled {
+    background-color: var(--primary-color);
+    height: 100%;
+  }
+  
+  /* Styling for Class Cards */
+  .dashboard-class-card {
+    border-radius: 12px;
+    height: 120px;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .dashboard-class-card-icon {
+    background-color: var(--primary-color);
+    color: black;
+    width: 35px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  .dashboard-class-card-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .dashboard-class-card-details {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 0;
+  }
+  
+  /* Styling for Daily Progress list */
+  .dashboard-daily-progress-header {
+    font-weight: bold;
+  }
+  
+  .dashboard-daily-progress-list {
+    margin-top: 10px;
+  }
+  
+  .dashboard-list-item {
+    background-color: #fff;
+  }
+  
+  .dashboard-list-item:hover {
+    background-color: #fff1f1;
+  }
+  
+  .dashboard-list-item span {
+    margin-left: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .dashboard-course-card {
+      margin-bottom: 15px;
+    }
+  
+    .dashboard-class-card {
+      margin-bottom: 15px;
+    }
+  
+    .dashboard-progress-bar {
+      width: 60%;
+    }
+  }
+  

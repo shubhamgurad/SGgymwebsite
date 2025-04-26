@@ -1,0 +1,157 @@
+.table {
+    background-color: #ffffff; /* White background for the table */
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    overflow: hidden; /* Ensures the rounded corners are visible */
+  }
+
+  .mainTableContainer {
+    margin: 40px auto;
+    background-color: #ffffff; /* White background */
+    padding: 20px; /* Padding for spacing inside the container */
+    border-radius: 8px; /* Optional: Rounded corners */
+    margin-bottom: 20px; /* Space below the container */
+  }
+
+  /* Striped rows for the table */
+.table tbody tr:nth-child(odd) {
+    background-color: #ffffff !important; /* Light gray for odd rows */
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #ffffff; /* White for even rows */
+  }
+
+  .statusicon {
+    width: 100%; /* Set the width of the icon */
+    height: 20px; /* Set the height of the icon */
+  }
+
+  .common-image {
+    width: 30px; /* Set width for the profile image */
+    height: 30px; /* Set height for the profile image */
+    border-radius: 4px;
+  }
+
+  .searchbar {
+    font-size: 14px;
+    margin: 0px;
+  }
+
+  .user-table td {
+    padding: 0px !important;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .user-table tbody {
+    background-color: #ffffff !important;
+  }
+
+  .user-table th {
+    /* background-color: #fc5c5c; */
+    background-color: var(--primary-color);
+    color: white;
+    
+  }
+
+  .searchbar {
+    font-size: 14px;
+    margin: 0px;
+  }
+
+  .searchbox{
+    font-size: 14px;
+    padding: 3px 9px;
+    border: 1px solid #ccc;
+    /* color: rgb(113, 112, 112); */
+  }
+
+  .searchbox:focus {
+    border-color: #f38f0d; /* Change border color */
+    box-shadow: 0 0 5px #e78504; /* Change shadow color */
+}
+
+  .editicon {
+    font-size: 11px;
+    background-color: green;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    margin-right: 3px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    }
+
+  .downoladIcon {
+    font-size: 10px;
+    background-color:rgb(45, 23, 165);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    margin-left: 3px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .downoladIcon:hover {
+    background: transparent;
+    color: rgb(45, 23, 165);
+    border-color: rgb(45, 23, 165);
+  }
+
+  .deleteicon {
+    font-size: 10px;
+    background-color: #dc3545;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .deleteicon:hover {
+    background: transparent !important;
+    color: #d11a2a;
+    border-color: #d11a2a;
+  }
+
+.table th,
+.table td {
+  padding: 5px; /* Compact padding */
+  height: 30px; /* Set a specific height for the cells */
+  text-align: left; /* Center text in cells */
+  font-size: 13px; /* Standard font size */
+}
+
+/* Add this CSS to your stylesheet */
+.pagination-button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0px 8px;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination-button:hover {
+  background-color: darken(var(--primary-color), 10%);
+  transform: scale(1.05);
+}
+
+.pagination-button:disabled {
+  background-color: var(--secondary-color);
+  color: black;
+  cursor: not-allowed;
+}
+

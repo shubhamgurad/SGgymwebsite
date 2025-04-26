@@ -1,0 +1,132 @@
+/* General Styles */
+.post-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding:10px 50px;
+    border-radius: 8px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Form Styles */
+  .post-form .form-group {
+    margin-bottom: 24px;
+  }
+  
+  .post-form .form-control {
+    border-radius: 8px;
+    /* padding: 12px; */
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .post-form .form-control:focus {
+    border-color: #e48203;
+    box-shadow: 0 0 5px rgba(236, 127, 3, 0.788);
+  }
+  
+  /* Button Styles */
+  .post-btn {
+    border-radius: 10px;
+    padding: 3px 20px;
+    font-size: 16px;
+    background-color: var(--primary-color) !important;
+    border: none;
+    color: white;
+  }
+  
+  .post-btn:hover {
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+    font-weight: bold;
+  }
+  
+  /* Post Cards Layout */
+  .post-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .post-card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .post-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .post-card .card-body {
+    padding: 20px;
+  }
+  
+  .post-card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .post-card .card-text {
+    font-size: 16px;
+    color: #555;
+  }
+
+  .page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding:10px 50px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .editicon {
+    font-size: 20px;
+    /* background-color: green; */
+    background-color: #000000 !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    margin-right: 3px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+    }
+  
+    .deleteicon {
+      font-size: 20px;
+      background-color: #dc3545 !important;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      border-radius: 4px;
+      color: white;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: none;
+    } 
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .post-row {
+      justify-content: center;
+    }
+  }
+  

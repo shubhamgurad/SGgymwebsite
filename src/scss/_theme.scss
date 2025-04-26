@@ -1,0 +1,96 @@
+body {
+  // background-color: var(--cui-tertiary-bg);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.wrapper {
+  width: 100%;
+  @include ltr-rtl("padding-left", var(--cui-sidebar-occupy-start, 0));
+  @include ltr-rtl("padding-right", var(--cui-sidebar-occupy-end, 0));
+  will-change: auto;
+  @include transition(padding .15s);
+}
+
+.header > .container-fluid,
+.sidebar-header {
+  min-height: calc(4rem + 1px); // stylelint-disable-line function-disallowed-list
+}
+
+.sidebar-brand-full {
+  margin-left: 3px;
+}
+
+.sidebar-header {
+  .nav-underline-border {
+    --cui-nav-underline-border-link-padding-x: 1rem;
+    --cui-nav-underline-border-gap: 0;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    min-height: calc(4rem + 1px); // stylelint-disable-line function-disallowed-list
+  }
+}
+
+.sidebar-toggler {
+  @include ltr-rtl("margin-left", auto);
+}
+
+.sidebar-narrow,
+.sidebar-narrow-unfoldable:not(:hover) {
+  .sidebar-toggler {
+    @include ltr-rtl("margin-right", auto);
+  }
+}
+
+.header > .container-fluid + .container-fluid {
+  min-height: 3rem;
+}
+
+.footer {
+  min-height: calc(3rem + 1px); // stylelint-disable-line function-disallowed-list
+}
+
+// @if $enable-dark-mode {
+//   @include color-mode(dark) {
+//     body {
+//       background-color: var(--cui-dark-bg-subtle);
+//     }
+
+//     .footer {
+//       --cui-footer-bg: var(--cui-body-bg);
+//     }
+//   }
+// }
+
+.sidebar-nav .nav-link{
+  // color: #000000;
+  color: var(--text-color);
+}
+.sidebar-nav .nav-link.active {
+  // color: var(--cui-sidebar-nav-link-active-nav-icon-color);
+  // background: #fc5c5c;
+  // color: #ffffff;
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.sidebar-nav .nav-link:hover {
+  // color: var(--cui-sidebar-nav-link-active-nav-icon-color);
+  // background: #fff1f1;
+  // color: #000000;
+  background: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.sidebar-nav .nav-link.active .nav-icon {
+  color: #ffffff; /* Change this color as needed for the active icon */
+  font-size: 1.2em; /* Adjust size if necessary */
+}
+
+.sidebar-nav .nav-link .nav-icon {
+  color: #000000; /* Change this color as needed for the active icon */
+  font-size: 1.2em; /* Adjust size if necessary */
+}

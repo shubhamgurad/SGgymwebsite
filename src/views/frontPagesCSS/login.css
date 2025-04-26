@@ -1,0 +1,111 @@
+.login_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+.sk_login_container {
+    display: flex;
+    width: 700px;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-box {
+    width: 50%;
+    padding: 40px;
+}
+.welcome_txt{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+.input-group:focus-within {
+    border: 1px solid #7f1217; /* Red border when input inside is focused */
+    box-shadow: 0 0 5px rgba(127, 18, 23, 0.5); /* Optional: Adds a soft glow effect */
+}
+
+.input-field{
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.input-field:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.login-icons{
+    align-items: center;
+    font-size: 16px;
+    color: #7f1217;
+}
+
+.login-btn {
+    /* width: 100%; */
+    padding: 3px 20px;
+    background: white;
+    color: #7f1217;
+    border: 1px solid #7f1217;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.login-btn:hover {
+    background: #7f1217;
+    color: white;
+}
+
+.illustration {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.illustration img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.signup-link {
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .signup-link .signup-text {
+    color: #7f1217;
+    font-weight: bold;
+  }
+  
+  .signup-link:hover .signup-text {
+    text-decoration: underline;
+  }

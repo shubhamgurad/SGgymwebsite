@@ -1,0 +1,188 @@
+/* heading starts */
+
+.contact_background-image{
+background-image: url('../Images/gym_31.jpg'); /* Replace with your image URL */
+background-size: cover;
+background-position: center;
+height: 85vh; /* Full screen height */
+position: relative;
+overflow: hidden; 
+}
+
+.contact_background-image .contact_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 1; /* Make sure the overlay is on top of the image */
+}
+
+/* Overlay style for text */
+.contact_overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2; /* Ensure text appears above the overlay */
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contact_overlay-heading{
+  font-size: 46px;
+  font-weight: 700;
+}
+
+/* text section start */
+
+.contact-section {
+  background-color: #F9FAFB;
+  padding: 25px 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1F2937;
+  border-radius: 20px;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.contact-subtext {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #4B5563;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+}
+
+.contact-info {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.contact-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.3rem;
+}
+
+.contact-info a {
+  color: #2563EB;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  /* .contact-section {
+    padding: 80px 100px;
+  } */
+
+  .contact-info {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 100px;
+  }
+}
+
+
+/* text section end */
+
+
+.contact_card{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.form-control{
+    background: transparent;
+}
+
+.form-control:hover {
+    /* box-shadow: 0 0 0 0.2rem #7f1217;  */
+    border: 1px solid #7f1217;
+    border-color: #7f1217;
+    transition: all 0.3s ease-in-out;
+    background: transparent;
+    color: black;
+  }
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #7f1217;
+    background: transparent;
+  }  
+
+.contact_btn{
+  /* color: red;
+  background-color: white;
+  border: 3px solid rgb(255, 96, 96);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 18px; */
+    padding: 5px 16px;
+	  font-weight: 700;
+	  border-radius: 15px;
+    background: white;
+    color: #7f1217;
+    border: 1px solid #7f1217;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+.contact_btn:hover{
+  background: #7f1217;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.map{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.Contact_head{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width:fit-content;
+    margin-left: 15px;
+    background-color: rgb(174, 1, 1);
+}
+.contact_head_txt{
+  font-weight: 700;
+  color: white;
+
+}

@@ -1,0 +1,88 @@
+.registration{
+    background-color: white;
+    height: 100vh;
+}
+
+.register-container{
+	margin-top: 30px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	padding: 20px 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form{
+	line-height: 10px;
+	padding: 5px 10px;
+}
+
+.text_signup{
+	color: #7f1217;
+	font-weight: 900;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.signup_lebal{
+	margin-bottom: 10px;
+	font-size: medium;
+	font-weight: 600;
+}
+
+.singup_input{
+	border-radius: 5px;
+	border: 0.5px solid rgb(215, 214, 214);
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	background-color: transparent;
+    color: black;
+}
+
+.signup_btn{
+	/* width: 100%; */
+    padding: 8px 20px;
+	font-weight: 700;
+	border-radius: 15px;
+    background: white;
+    color: #7f1217;
+    border: 1px solid #7f1217;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.signup_btn:hover {
+    background: #7f1217;
+    color: white;
+}
+
+.signup_img{
+	margin-top: 120px;
+	height: 400px;
+	border-radius: 25px;
+	background-color: #f5f5f5;
+	border-left: #111111;
+}
+
+@media (max-width: 768px) {
+    .register-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .register-container {
+        width: 100%;
+        height: 100px;
+        margin-top: 80%;
+        flex-direction: column;
+    }
+}

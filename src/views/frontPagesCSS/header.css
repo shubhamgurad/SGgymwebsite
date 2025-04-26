@@ -1,0 +1,84 @@
+/* General header padding */
+.header-navbar {
+    width: 100%;
+    padding: 5px 90px;
+    background-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-bottom: none;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  /* Custom navbar styles */
+  .navbar-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo customization */
+  .navbar-brand .logo {
+    max-height: 60px; /* Adjust logo size */
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+  
+  /* Center the navigation links */
+  .navbar-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Navigation link customization */
+  .navbar-custom .nav-link {
+    font-size: 16px;
+    color: white !important;
+    font-weight: 500; 
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for links */
+  .navbar-custom .nav-link:hover {
+    color: #007bff; 
+    transform: scale(1.1); 
+  }
+  
+  /* Active link customization (for when the user is on the current page) */
+  .navbar-custom .nav-link.active {
+    color: #cf231f; 
+    font-weight: 600; 
+  }
+  
+  /* Optional: Add focus styles for accessibility */
+  .navbar-custom .nav-link:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(207, 35, 31); 
+  }
+  
+  /* Sign Up button customization */
+  .btn-signup {
+    font-size: 16px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    background-color: white;
+    font-weight: 700;
+    color: #cf231f;
+  }
+
+  .btn-signup:hover {
+    background-color: rgb(207, 35, 31);
+    border: none;
+    color: white;
+    font-weight: 700;
+  }
+  
+
+  

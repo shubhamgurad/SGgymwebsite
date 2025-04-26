@@ -1,0 +1,94 @@
+/* Footer Styles */
+.footer {
+    background: black; /* Dark background color */
+    color: white; /* White text color */
+    padding: 40px 0; /* Padding for the footer */
+    /* margin-top: 40px; */
+  }
+  
+  /* Footer row styling */
+  .footer-row {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px;
+  }
+  
+  .footer-logo h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    font-size: 14px;
+    color: white; /* Lighter text for description */
+  }
+  
+  .footer-follow-us h5, .footer-contact h5 {
+    font-size: 18px !important;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .footer-links .list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 5px 0;
+  }
+  
+  .footer-links .list-group-item a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  /* .footer-links .list-group-item a:hover {
+    color: #007bff; /* Change color on hover 
+  }*/
+
+  .footer-contact p {
+    font-size: 14px;
+    color: white;
+  }
+  
+  /* Social Media Icons Styling */
+  .social-icons {
+    display: flex; /* Use flexbox to arrange icons in a row */
+    justify-content: flex-start; /* Align the icons to the left (optional) */
+    align-items: center; /* Center vertically */
+    /* gap: 5px; Add space between icons */
+  }
+  
+  .social-icon {
+    color: #fff;
+    font-size: 25px; /* Increase size of icons */
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center the icon */
+    align-items: center; /* Vertically center the icon */
+    width: 30px; /* Define width of the circular container */
+    height: 30px; /* Define height of the circular container */
+    padding: 3px 8px;
+    border: 1px solid white;
+    border-radius: 50%; /* Make the container circular */
+  }
+  
+  /* .social-icon:hover {
+    color: #007bff; /* Change color on hover 
+  } */
+  
+  /* Footer bottom styling */
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    background: #222; /* Slightly darker background for footer bottom */
+    padding: 15px 0;
+    width: 100%;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: #bbb;
+  }
+  

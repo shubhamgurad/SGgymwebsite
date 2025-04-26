@@ -1,0 +1,76 @@
+.about_background-image {
+  background-image: url('../Images/gym32.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  position: relative;
+  overflow: hidden;
+  padding-top: 130px;
+}
+
+.about_background-image .about_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Overlay style for text */
+.about_overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2; /* Ensure text appears above the overlay */
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about_overlay-heading {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+
+.about-subtext {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #4B5563;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+  text-align: justify;
+}
+
+.vertical_line_div{
+  margin-left: 45px;
+  padding: 20px;
+}
+
+.vertical_line{
+    border-left: 10px double #bb1f27; 
+    height: 100%;
+    padding-right: 10px;
+    
+}
+
+.about-heading-m{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7f1217;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+}
