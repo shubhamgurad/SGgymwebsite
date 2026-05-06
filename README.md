@@ -1,189 +1,168 @@
-<<<<<<< HEAD
-# CoreUI Free React Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%React%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+# 🏋️ Gym Website - DevOps Project
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
-[![npm package][npm-coreui-badge]][npm-coreui]
-[![NPM downloads][npm-coreui-download]][npm-coreui]
-[![@coreui react](https://img.shields.io/badge/@coreui%20-react-lightgrey.svg?style=flat-square)](https://github.com/coreui/react)
-[![npm package][npm-coreui-react-badge]][npm-coreui-react]
-[![NPM downloads][npm-coreui-react-download]][npm-coreui-react]  
+🚀 **End-to-End DevOps Implementation using Docker, Terraform, AWS, and CI/CD**
 
-[npm-coreui]: https://www.npmjs.com/package/@coreui/coreui
-[npm-coreui-badge]: https://img.shields.io/npm/v/@coreui/coreui.png?style=flat-square
-[npm-coreui-download]: https://img.shields.io/npm/dm/@coreui/coreui.svg?style=flat-square
-[npm-coreui-react]: https://www.npmjs.com/package/@coreui/react
-[npm-coreui-react-badge]: https://img.shields.io/npm/v/@coreui/react.png?style=flat-square
-[npm-coreui-react-download]: https://img.shields.io/npm/dm/@coreui/react.svg?style=flat-square
-[npm]: https://www.npmjs.com/package/@coreui/react
+---
 
-[![Bootstrap Admin Template](https://assets.coreui.io/products/coreui-free-bootstrap-admin-template-light-dark.webp)](https://coreui.io/product/free-react-admin-template/)
+## 📌 Project Overview
 
-CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
+This project demonstrates how a static web application (Gym Website) can be containerized, deployed on AWS infrastructure, and automated using a CI/CD pipeline.
 
-## Table of Contents
+The goal is to showcase real-world DevOps practices including Infrastructure as Code (IaC), containerization, and continuous deployment.
 
-* [Versions](#versions)
-* [CoreUI PRO](#coreui-pro)
-* [CoreUI PRO React Admin Templates](#coreui-pro-react-admin-templates)
-* [Quick Start](#quick-start)
-* [Installation](#installation)
-* [Basic usage](#basic-usage)
-* [What's included](#whats-included)
-* [Documentation](#documentation)
-* [Versioning](#versioning)
-* [Creators](#creators)
-* [Community](#community)
-* [Support CoreUI Development](#support-coreui-development)
-* [Copyright and License](#copyright-and-license)
+---
 
-## Versions
-
-* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
-* [CoreUI Free Angular Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
-* [CoreUI Free React.js Admin Template (Vite)](https://github.com/coreui/coreui-free-react-admin-template)
-* [CoreUI Free React.js Admin Template (Create React App)](https://github.com/coreui/coreui-free-react-admin-template-cra)
-* [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
-
-## CoreUI PRO
-
-* 💪  [CoreUI PRO Angular Admin Template](https://coreui.io/product/angular-dashboard-template/)
-* 💪  [CoreUI PRO Bootstrap Admin Template](https://coreui.io/product/bootstrap-dashboard-template/)
-* 💪  [CoreUI PRO Next.js Admin Template](https://coreui.io/product/next-js-dashboard-template/)
-* 💪  [CoreUI PRO React Admin Template](https://coreui.io/product/react-dashboard-template/)
-* 💪  [CoreUI PRO Vue Admin Template](https://coreui.io/product/vue-dashboard-template/)
-
-## CoreUI PRO React Admin Templates
-
-| Default Theme | Light Theme |
-| --- | --- |
-| [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_default_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=default) | [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_light_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=light)|
-
-| Modern Theme | Bright Theme |
-| --- | --- |
-| [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_default_v3_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=modern) | [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_light_v3_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=bright)|
-
-## Quick Start
-
-- [Download the latest release](https://github.com/coreui/coreui-free-react-admin-template/archive/refs/heads/main.zip)
-- Clone the repo: `git clone https://github.com/coreui/coreui-free-react-admin-template.git`
-
-### Installation
-
-``` bash
-$ npm install
-```
-
-or
-
-``` bash
-$ yarn install
-```
-
-### Basic usage
-
-``` bash
-# dev server with hot reload at http://localhost:3000
-$ npm start 
-```
-
-or 
-
-``` bash
-# dev server with hot reload at http://localhost:3000
-$ yarn start
-```
-
-Navigate to [http://localhost:3000](http://localhost:3000). The app will automatically reload if you change any of the source files.
-
-#### Build
-
-Run `build` to build the project. The build artifacts will be stored in the `build/` directory.
-
-```bash
-# build for production with minification
-$ npm run build
-```
-
-or
-
-```bash
-# build for production with minification
-$ yarn build
-```
-
-## What's included
-
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+## 🏗️ Architecture
 
 ```
-coreui-free-react-admin-template
-├── public/          # static files
-│   ├── favicon.ico
-│   └── manifest.json
+GitHub → GitHub Actions → Docker Build → DockerHub → AWS EC2 → Nginx Container
+                         ↓
+                    Terraform (Infra Provisioning)
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* ☁️ AWS (EC2)
+* 🐳 Docker
+* ⚙️ Terraform (Infrastructure as Code)
+* 🔁 GitHub Actions (CI/CD)
+* 🌐 Nginx (Web Server)
+* 💻 HTML, CSS, JavaScript
+
+---
+
+## 🚀 Features
+
+* Containerized application using Docker
+* Automated infrastructure provisioning using Terraform
+* CI/CD pipeline for build and deployment
+* Deployment on AWS EC2
+* Scalable and repeatable infrastructure setup
+
+---
+
+## 📂 Project Structure
+
+```
+SGgymwebsite/
 │
-├── src/             # project root
-│   ├── assets/      # images, icons, etc.
-│   ├── components/  # common components - header, footer, sidebar, etc.
-│   ├── layouts/     # layout containers
-│   ├── scss/        # scss styles
-│   ├── views/       # application views
-│   ├── _nav.js      # sidebar navigation config
-│   ├── App.js
-│   ├── index.js
-│   ├── routes.js    # routes config
-│   └── store.js     # template state example 
-│
-├── index.html       # html template
-├── ...
-├── package.json
-├── ...
-└── vite.config.mjs  # vite config
+├── Dockerfile
+├── terraform/
+│   └── main.tf
+├── .github/workflows/
+│   └── deploy.yml
+├── index.html
+├── css/
+├── js/
 ```
 
-## Documentation
+---
 
-The documentation for the CoreUI Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/docs/templates/installation/)
+## 🐳 Docker Setup
 
-## Versioning
+### Build Image
 
-For transparency into our release cycle and in striving to maintain backward compatibility, CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
+```
+docker build -t gym-website .
+```
 
-See [the Releases section of our project](https://github.com/coreui/coreui-free-react-admin-template/releases) for changelogs for each release version.
+### Run Container
 
-## Creators
+```
+docker run -d -p 8080:80 gym-website
+```
 
-**Łukasz Holeczek**
+👉 Access app at: http://localhost:8080
 
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
+---
 
-**Andrzej Kopański**
+## ☁️ AWS Infrastructure (Terraform)
 
-* <https://github.com/xidedix>
+### Initialize Terraform
 
-**CoreUI Team**
+```
+terraform init
+```
 
-* <https://twitter.com/core_ui>
-* <https://github.com/coreui>
-* <https://github.com/orgs/coreui/people>
+### Apply Configuration
 
-## Community
+```
+terraform apply
+```
 
-Get updates on CoreUI's development and chat with the project maintainers and community members.
+👉 This will:
 
-- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
-- Read and subscribe to [CoreUI Blog](https://coreui.ui/blog/).
+* Create EC2 instance
+* Install Docker
+* Prepare environment for deployment
 
-## Support CoreUI Development
+---
 
-CoreUI is an MIT-licensed open source project and is completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by buying the [CoreUI PRO](https://coreui.io/pricing/?framework=react&src=github-coreui-free-react-admin-template) or by becoming a sponsor via [Open Collective](https://opencollective.com/coreui/).
+## 🔁 CI/CD Pipeline
 
-## Copyright and License
+This project uses **GitHub Actions** to automate:
 
-copyright 2024 creativeLabs Łukasz Holeczek.   
+* Build Docker image
+* Push image to DockerHub
+* Deploy container on AWS EC2
 
-Code released under [the MIT license](https://github.com/coreui/coreui-free-react-admin-template/blob/main/LICENSE).
-=======
-# SGgymwebsite
->>>>>>> 613b20a0e7867df1352cc4fcb26503b8b390b9cf
+### Trigger
+
+* Runs automatically on `git push` to `main` branch
+
+---
+
+## 🔐 GitHub Secrets Required
+
+Add the following secrets in GitHub:
+
+* `DOCKER_USERNAME`
+* `DOCKER_PASSWORD`
+* `EC2_IP`
+* `SSH_KEY`
+
+---
+
+## 🚀 Deployment Steps
+
+1. Push code to GitHub
+2. CI/CD pipeline builds Docker image
+3. Image pushed to DockerHub
+4. SSH into EC2 instance
+5. Pull latest image
+6. Run container using Docker
+
+---
+
+## 📸 Screenshots (Add Here)
+
+* Jenkins / GitHub Actions pipeline
+* Running application on AWS
+* Docker container logs
+
+---
+
+## 📈 Future Improvements
+
+* Deploy using Kubernetes (EKS)
+* Add Load Balancer (ALB)
+* Implement monitoring (Prometheus + Grafana)
+* Use AWS ECR instead of DockerHub
+
+---
+
+## 👨‍💻 Author
+
+**Shubham Gurad**
+DevOps Engineer
+
+📧 Email: [guradshubham96@gmail.com](mailto:guradshubham96@gmail.com)
+🔗 LinkedIn: https://www.linkedin.com/in/shubhgurad
+
+---
+
+## ⭐ Conclusion
+
+This project demonstrates practical implementation of DevOps tools and practices including containerization, infrastructure automation, and CI/CD pipelines for efficient and scalable deployments.
